@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: ribeiroevandro/cms-test
+  branch: main
+  site_domain: cms-valid.netlify.app
+
 media_folder: static/img
 slug:
   encoding: 'ascii'
