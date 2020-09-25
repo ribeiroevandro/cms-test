@@ -4,13 +4,13 @@ backend:
   branch: main
   site_domain: cms-valid.netlify.app
 
-media_folder: src/static/img
+media_folder: public/static/img
 
 slug:
   encoding: 'ascii'
   clean_accents: true
   sanitize_replacement: '_'
-  
+
 collections:
   - name: 'pages'
     label: 'Pages'
